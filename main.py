@@ -89,7 +89,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     acquaintance_year = int(config["acquaintance_date"].split("-")[0])
     acquaintance_month = int(config["acquaintance_date"].split("-")[1])
     acquaintance_day = int(config["acquaintance_date"].split("-")[2])
-    acquaintance_date = date(acquaintance_year, acquaintance_month, acquaintance_day)
+    acquaintance_date = date(acquaintance_year,acquaintance_month,acquaintance_day)
     # 获取在一起的日期差
     acquaintace_days = str(today.__sub__(acquaintance_date)).split(" ")[0]
 
